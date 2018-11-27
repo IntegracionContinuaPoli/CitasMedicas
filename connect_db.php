@@ -2,7 +2,7 @@
 
 $host="localhost";
 $user="root";
-$password="";
+$password="poli";
 $db="db_proyecto";
 $mysqli = new MySQLi($host,$user,$password,$db);
 		//$mysqli = new MySQLi("localhost", "root","", "db_proyecto");
