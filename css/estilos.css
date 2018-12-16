@@ -18,13 +18,8 @@ body{
 	   color: #000000;
 }
 #envoltura{
-        position:absolute;
-    /*left y top al 50% para que quede centrado en la pantalla*/
-    left:50%;
-    top:50%;
-    margin-left:-165px;
-    margin-top: -110px;
-    width: 335px;
+	width:25%;
+	margin:15% auto;
  
 }
 #contenedor{
@@ -33,21 +28,15 @@ body{
     /*box-shadow: 0 0 0 9px rgba(128,0,0,.1);*/
     /*Margen de sombra alrededor del contenedor 8px negro*/
    
-    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    box-shadow: 1px 1px 1px 1px rgba(100,100,100,.6);
     /*Las 3 líneas siguientes, sirven para el borde redondeado
      * pero para diferentes navegadores*/
-    -webkit-border-radius:5px;
-    -moz-border-radius:10px;
-    border-radius:8px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
     
 }
-#cuerpo{
-    background:#ececec;
-    border:solid #ccc;
-    /*aumentando el 6px 'aparece' un borde*/
-    border-width: 10px 0px;
-    padding:20px 35px;
-}
+
 #principal{
 	position:absolute;
     /*left y top al 50% para que quede centrado en la pantalla*/
